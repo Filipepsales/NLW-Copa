@@ -28,7 +28,7 @@ document.querySelector("#cards").innerHTML =
   createCard("20/11", "Domingo", createGame("catar", "13:00", "equador")) +
   createCard(
     "21/11",
-    "Domingo",
+    "Segunda",
     createGame("inglaterra", "10:00", "ira") +
       createGame("senegal", "13:00", "holanda") +
       createGame("eua", "16:00", "gales")
@@ -72,14 +72,6 @@ document.querySelector("#cards").innerHTML =
       createGame("polonia", "10:00", "arabiasaudita") +
       createGame("franca", "13:00", "dinamarca") +
       createGame("argentina", "16:00", "mexico")
-  ) +
-  createCard(
-    "27/11",
-    "domingo",
-    createGame("japan", "07:00", "costarica") +
-      createGame("belgica", "10:00", "marrocos") +
-      createGame("croacia", "13:00", "canada") +
-      createGame("spain", "16:00", "alemanha")
   ) +
   createCard(
     "27/11",
